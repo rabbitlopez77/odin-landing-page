@@ -83,3 +83,12 @@
 .call-to-action button:hover {
     background-color: #4CAF50; 
   }
+footer {
+    text-align: center;
+}
+a {
+    color: white;
+}
+a:visited {
+    color: rgb(7, 234, 79);
+}
