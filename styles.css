@@ -57,3 +57,29 @@
     padding: 0 10px 10px 0;
     font-weight: 700;
 }
+.call-to-action {
+    background-color: rgb(73, 73, 253);
+    color: rgb(0, 6, 10);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 10px 10px 0 10px;
+}
+.call-to-action button {
+    font-size: 10px;
+    border-radius: 30%;
+    width: 50px;
+    height: 40px;
+    background-color: rgb(29, 156, 246);
+    border-color: antiquewhite;
+    transition-duration: 0.4s;
+}
+.call-to-action .call-info {
+    text-align: center;
+}
+.call-to-action .call-info p {
+    color:white;
+}
+.call-to-action button:hover {
+    background-color: #4CAF50; 
+  }
