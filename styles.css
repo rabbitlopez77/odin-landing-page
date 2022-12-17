@@ -1,13 +1,31 @@
 .navbar {
-    background-color: black;
+    background-color: #283a69;
     color: white;
     display: flex;
     justify-content: flex-end;
     font-size: small;
     gap: 10px;
+    max-width: viewport;
+    padding: 10px;
 }
 .navbar .navbar-logo {
     
     height: 10px;
     align-self: center;
+}
+.introduction {
+    background-color: #283a69;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    max-width: viewport;
+    max-height: fit-content;
+    padding: 20px;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+
+}
+.introduction .intro-pic {
+    height: 100px;
 }
