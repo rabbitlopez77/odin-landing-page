@@ -3,14 +3,14 @@
     color: white;
     display: flex;
     justify-content: flex-end;
-    font-size: small;
+    font-size: larger;
     gap: 10px;
     max-width: viewport;
     padding: 10px;
 }
 .navbar .navbar-logo {
     
-    height: 10px;
+    height: 20px;
     align-self: center;
 }
 .introduction {
@@ -26,8 +26,20 @@
     justify-content: center;
 
 }
+.introduction h2 {
+    font-size: 40px;
+}
+.introduction p {
+    font-size: large;
+    font-style: italic;
+}
 .introduction .intro-pic {
-    height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+.pics-h2 {
+    text-align: center;
+    font-size: 35px;
 }
 .pictures {
     display: flex;
@@ -36,6 +48,8 @@
     gap: 10px;
     margin: 20px;
     max-width: viewport;
+    font-style: italic;
+    font-size: small;
 }
 .pictures img {
     max-height: 100px;
@@ -50,12 +64,14 @@
     color: white;
     font-style: italic;
     text-align: center;
+    font-size: 50px;
 }
 .quote p {
     color: black;
     text-align: end;
-    padding: 0 10px 10px 0;
+    padding: 0 10px 20px 0;
     font-weight: 700;
+    font-style: italic;
 }
 .call-to-action {
     background-color: rgb(73, 73, 253);
