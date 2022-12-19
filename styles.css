@@ -92,8 +92,12 @@
     color: rgb(0, 6, 10);
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px 10px 0 10px;
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+
 }
 .call-to-action button {
     font-size: 10px;
